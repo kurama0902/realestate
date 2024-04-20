@@ -299,6 +299,10 @@
 
 @media (width <= 1000px) {
 
+    .rentBuy {
+        gap: 24px;
+    }
+
     .supportBtnWrap {
         display: none;
     }
@@ -309,7 +313,7 @@
 
     .rentBuy h1,
     .btnAndText h1 {
-        font-size: 55px;
+        font-size: 52px;
     }
 
     .firstBtnAndText {

@@ -13,6 +13,7 @@
 .whatWeOfferDetailedWrap {
     min-height: 825px;
     background-color: #F6884D;
+    overflow: hidden;
 }
 
 .whatWeOfferDetailed {
