@@ -1,0 +1,188 @@
+.whatWeOfferWrap {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+.houseImgWrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.whatWeOfferDetailedWrap {
+    min-height: 825px;
+    background-color: #F6884D;
+}
+
+.whatWeOfferDetailed {
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+    gap: 279px;
+}
+
+.houseImg {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.imagesWrap {
+    position: relative;
+}
+
+.bathImg {
+    position: absolute;
+    top: 510px;
+    left: 305px;
+}
+
+.whatWeOfferText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    max-width: 675px;
+    right: 76px;
+}
+
+
+
+.whatText,
+.weOfferText {
+    color: #FFF;
+    font-family: "TenorSansRegular";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.weOfferText {
+    text-align: right;
+    padding-right: 57px;
+    margin-bottom: 43px;
+}
+
+.whatText {
+    text-align: right;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 306px;
+    color: #FFF;
+    font-family: 'CommisionerRegular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.animationCircleWrap {
+    position: absolute;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #F6884D;
+    border-radius: 100%;
+    animation: mainCircleAnimation .7s infinite;
+}
+
+.fCircle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #F6884D;
+    animation: circleAnimation .7s infinite;
+}
+
+.sCircle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #F6884D;
+    animation: circleAnimation .9s infinite;
+}
+
+.housePoolImg {
+    max-width: 534px;
+}
+
+@keyframes circleAnimation {
+    from {
+        transform: scale(0);
+        border-color: #F6884D;
+    }
+
+    to {
+        transform: scale(7);
+        border-color: transparent;
+    }
+}
+
+@keyframes mainCircleAnimation {
+    from {
+        border-color: #F6884D;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+
+@media (width <= 1000px) {
+    .whatWeOfferDetailed {
+        padding-top: 80px;
+        padding-bottom: 59px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .whatWeOfferText {
+        position: static;
+        z-index: 2;
+        padding-left: 84px;
+        margin-top: 61px;
+    }
+
+    .whatText {
+        font-size: 50px;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+    .weOfferText {
+        font-size: 50px;
+        text-align: left;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+
+    .housePoolImg {
+        max-width: 262px;
+        height: 338px;
+    }
+
+    .bathImg {
+        max-width: 212px;
+        height: 131px;
+        left: 146px;
+        top: 283px;
+    }
+
+    .learnMore {
+        display: none;
+    }
+}

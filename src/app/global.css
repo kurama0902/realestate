@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: var(--Body, #FDF7EE);
+    padding-top: 163.95px;
+}
+
+@font-face {
+    font-family: 'CommisionerRegular';
+    src: url('/fonts/Commissioner-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CommisionerSemiBold';
+    src: url('/fonts/Commissioner-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TenorSansRegular';
+    src: url('/fonts/TenorSans-Regular.ttf') format('truetype');
+}
